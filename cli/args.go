@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-//cli input from args
+// cli input from args
 func ParseCLI() string {
 	var filepath string
 	flag.Usage = func() {
