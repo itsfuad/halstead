@@ -73,8 +73,6 @@ func (h *Halstead) Print() {
 	colors.BLUE.Println("------------------------------------------------------------")
 }
 
-
-
 func GetHalsteadMetrics(tokens []tokenizer.Token) Halstead {
 
 	h := Halstead{}
